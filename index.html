@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>This Interior</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;400;700&family=Montserrat:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="row justify-content-bt">
+        <a href="#" class="logo">This Interior</a>
+        <nav>
+          <div class="toogle-menu">
+            <span class="material-icons material-icons-outlined">
+              menu
+            </span>
+            <span class="material-icons material-icons-outlined">
+              clear
+            </span>
+          </div>
+          <ul class="nav">
+            <li class="nav-item active"><a href="#">Home</a></li>
+            <li class="nav-item"><a href="#">Collection</a></li>
+            <li class="nav-item"><a href="#">About</a></li>
+            <li class="nav-item"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="grid">
+        <div class="left-content">
+          <h1>Modern interior</h1>
+          <p>A full-Service residential & commercial interior design and staging company offering professional
+            organizing & eco-services.</p>
+          <a href="#" target="_blank" rel="noopener noreferrer">Read more </a>
+        </div>
+        <div class="right-content">
+          <div class="box-img">
+            <img src="./photo1.png" alt="photo 1">
+          </div>
+          <div class="content-img">
+            <div class="row">
+              <div class="box-img">
+                <img src="./photo2.png" alt="photo 2">
+              </div>
+              <div>
+                <h2 class="name">Aliza Webber</h2>
+                <span class="office">Interior designer</span>
+              </div>
+            </div>
+            <div class="row">
+              <h1>Designed in 2020 by Aliza Webber</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>created by joabalves-dev - devChallenges.io</p>
+  </footer>
+  <script>
+    const toogle = document.querySelector('.toogle-menu');
+    const nav = document.querySelector('.nav');
+    toogle.addEventListener('click', () => {
+      toogle.classList.toggle('active');
+      nav.classList.toggle('active');
+    })
+  </script>
+</body>
+
+</html>
