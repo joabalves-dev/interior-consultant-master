@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://devs.natal.br/interior-consultant-master">
+    <a href="https://devs.natal.br/devchallenges/interior-consultant-master/">
       Demo
     </a>
     <span> | </span>
